@@ -5,10 +5,10 @@ export default function InputLogin (props: any) {
     inputLogin: {
       fontSize: 18,
       color: 'white',
-      width: 250,
+      width: 225,
       borderBottomWidth: 1,
-      borderColor: 'rgba(0, 0, 0, 0.6)',
-      marginTop: 10,
+      borderColor: 'white',
+      // marginTop: 10,
     },
   });
 

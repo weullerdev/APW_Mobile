@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { Button, StyleSheet, Text, View, ImageBackground, TouchableOpacity } from 'react-native';
+import { StyleSheet, View, ImageBackground } from 'react-native';
 
 import InputLogin from '@Components/InputLogin'
 import TouchableLogin from '@Components/TouchableLogin';
@@ -31,6 +31,15 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   container: {
+    height: 375,
+    width: 275,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 5,
     marginBottom: 60,
+    backgroundColor: 'rgba(133, 133, 123, 0.6)',
+    borderWidth: 1,
+    borderColor: '#ffffff',
+    gap: 10,
   }
 });
